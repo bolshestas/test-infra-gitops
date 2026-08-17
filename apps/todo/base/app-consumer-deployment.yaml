@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: consumer
-          image: ghcr.io/bolshestas/test-infra-tools:c2441e87abe1a36672999e5ba823e564bc3cf16e
+          image: ghcr.io/bolshestas/test-infra-tools:d2818479dd3279c2340195fde016f6331923b50f
           imagePullPolicy: IfNotPresent
           command:
             - node
