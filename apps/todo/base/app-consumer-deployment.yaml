@@ -17,8 +17,8 @@ spec:
     spec:
       containers:
         - name: consumer
-          image: getting-started:1.6
-          imagePullPolicy: Never
+          image: ghcr.io/bolshestas/test-infra-tools:c2441e87abe1a36672999e5ba823e564bc3cf16e
+          imagePullPolicy: IfNotPresent
           command:
             - node
             - src/consumer.js

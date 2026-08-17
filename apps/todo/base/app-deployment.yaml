@@ -56,8 +56,8 @@ spec:
           value: "1"
         - name: NODE_OPTIONS
           value: --disable-warning=TimeoutNegativeWarning
-        image: getting-started:1.6
-        imagePullPolicy: Never
+        image: ghcr.io/bolshestas/test-infra-tools:c2441e87abe1a36672999e5ba823e564bc3cf16e
+        imagePullPolicy: IfNotPresent
         name: getting-started
         ports:
         - containerPort: 3000
